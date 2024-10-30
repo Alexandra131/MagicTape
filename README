@@ -1,0 +1,12 @@
+Initial am facut functiile de Update, SHOW-afiseaza continutul benzii, SHOW_CURRENT afiseaza caracterul pe care este degetul, WRITE suprascrie caracterul de pe pozitia 
+unde se afla degetul, MOVE_RIGHT- pozitia degetului se muta la dreapta cu o celula, in cazul in care degetul e pe ultima pozitie se aloca o celula, se lega in continuare
+la finalul listei, iar apoi se muta degetul pe celula alocata,  MOVE_LEFT -pozitia degetului se muta la stanga cu o celula, daca ne afla langa santinela sau chiar pe 
+santinela nu se intampla nimic,   MOVE_LEFT_CHAR- pozitia degetului se muta la stanga pana intalneste caracterul pe care l.am dat, in cazul in care nu gasim caracterul
+si ajungem pana langa santinela se afiseaza un mesaj de eroare, MOVE_RIGHT_CHAR - pozitia degetului se muta la dreapta pana intalneste caracterul pe care l-am dat,
+in cazul in care ajundem la finalul listei si nu s.a gasit caracterul, alocam o celula, o legam la finalul listei si mutam degetul acolo, INSERT_RIGHT-inseram o celula
+la dreapta fata de pozitia curenta a degetului, si am avut doua cazuri, adaugare element dupa o celula si adaugare element la sfarsitul listei,  INSERT_LEFT- inseram
+o celula la stanga fata de pozitia curenta a degetului, in cazul in care ne afla langa santinela se afiseaza mesaj de erooare, functiile de UNDO si REDO permit anularea
+ultimei operati cat si revenirea la ultima operatie. in main, am pus operatiile de update in coada, mai putin  SHOW SI SHOW_CURRENT, iar de fiecare data cand se 
+intalnea operatia de execute, operatiile de pe care le-am pus in coada se executa pe rand, in functie de cate ori se intalneste operatia de executare.
+punctaj obtinut pe checker local: 96,5
+ 
